@@ -1,0 +1,36 @@
+# Diretórios de build e binários
+/build/
+/cmake-build-*/
+/*.bin
+/*.elf
+/*.map
+
+# Arquivos temporários
+*.log
+*.pyc
+*.pyo
+*.tmp
+*.bak
+*.swp
+
+# Arquivos gerados pelo ESP-IDF e VSCode
+/sdkconfig
+/sdkconfig.ci
+/sdkconfig.old
+/sdkconfig.defaults
+/pytest_mqtt5.py
+/.vscode/
+.env
+*.project
+*.cproject
+*.settings/
+*.DS_Store
+
+# Contêineres ou ambientes de desenvolvimento
+/.devcontainer/
+/*.code-workspace
+
+# Chaves ou senhas (se você usar arquivos locais para isso)
+*.pem
+*.key
+*.crt
